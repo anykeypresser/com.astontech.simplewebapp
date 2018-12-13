@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/test/")
+@RequestMapping("/api/test")
 public class SimpleController {
 
-    @GetMapping("hello/{name}")
+    @GetMapping("/hello/{name}")
     public String helloWorld(@PathVariable String name) {
         return "Hello " + name;
     }
