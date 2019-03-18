@@ -12,5 +12,12 @@ public class SimplewebappApplicationTests {
     @Test
     public void contextLoads() {
     }
+    
+    // just throwing in a comment or two
+    // and another comment
+    
+    @Test
+    public void contextLoads2() {
+    }
 
 }
